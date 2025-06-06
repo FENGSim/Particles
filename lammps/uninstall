@@ -6,3 +6,5 @@ rm -rf potentials
 rm -rf tools
 rm -rf build
 rm -rf ../install/lammps_install
+rm -rf unittest
+rm -rf python/examples
