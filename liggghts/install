@@ -6,6 +6,6 @@ sudo apt -y install gcc g++ cmake make p7zip-full libmpich-dev
 cd src
 mkdir build
 cd build
-cmake .. -DCMAKE_INSTALL_PREFIX=$PWD/../../../install/liggghts_install -DENABLE_VTK=OFF
+cmake .. -DCMAKE_INSTALL_PREFIX=$PWD/../../../install/liggghts_install -DENABLE_VTK=ON -DVTK_DIR=$PWD/../../../../Geometry/install/vtk_install/lib/cmake/vtk-8.1
 make -j4
 make install
