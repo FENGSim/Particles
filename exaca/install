@@ -1,3 +1,9 @@
+cd ../../
+cd Tools/kokkos
+./install
+cd ../../
+cd Particles/exaca
+
 mkdir build
 cd build
 cmake .. --install-prefix=$PWD/../../install/exaca_install -DKokkos_DIR=$PWD/../../../Tools/install/kokkos_install/lib/cmake/Kokkos/
