@@ -11,4 +11,4 @@ mkdir -p ../install/openphase_install/lib
 mkdir -p ../install/openphase_install/include
 
 cp -r lib/*.* ../install/openphase_install/lib
-cp -r include/*.* ../install/openphase_install/include
+cp -r include/ ../install/openphase_install/
