@@ -9,3 +9,5 @@ make -f Makefile_cpu
 cd ../../
 mkdir ../install
 cp -r bin ../install/dualsphsics_install
+
+chmod 777 -R bin
